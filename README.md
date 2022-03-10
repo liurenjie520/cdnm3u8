@@ -6,4 +6,6 @@ FFmpeg切成ts 自动生成m3u8
 ### ffmpeg -i ' + file_path + ' -c copy -map 0 -f segment -segment_list index.m3u8 -segment_time 1 output%03d.ts
 ### 把文件上传cdn。替换 m3u8里面的地址
 
+#### https://badyun.gitee.io/?url=https://gitee.com/feller678/hide/raw/master/8.m3u8
+
 
